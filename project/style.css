@@ -1,0 +1,165 @@
+*{
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+body{
+	background: #F0D439;
+}
+main {
+	padding-top:120px;
+	margin:0% 15%;
+	text-align: center;
+}
+header{
+	height: 100px;
+	position: fixed;
+	width: 100%;
+	background: #E9C340;
+	margin-bottom: 100px;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: -8px 0px 0px -8px;
+	padding: 0px 0px -10px 10px;
+}
+#logo{
+	width: 60px;
+	height: 50px;
+	float: left;
+	margin: 17px 8px 0px 0px;
+}
+#logo:hover{
+	content: url("img/phone.gif");
+}
+img[alt='cat']{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;}
+div.log{
+	float: right;
+}
+header div.nav a:not(:first-child){
+	display: inline;
+	float: left;
+	margin: 25px 0px 0px 8px;
+	padding: 15px;
+		background-image: linear-gradient(120deg, #F6E24D 0%, #E9C340 100%);
+		  background-repeat: no-repeat;
+		  background-size: 100% 0.2em;
+		  background-position: 0 88%;
+		  transition: background-size 0.25s ease-in;
+}
+.nav a:hover:not(:first-child){
+	background-size: 100% 88%;
+}
+.charpage li a{
+	padding: 8px;
+	background-color: #FAE362;
+	border-radius: 50%;
+	background-size: 30px 30px;
+}
+.charpage li a:hover{
+	color: #000;
+	background-color: #FAF362;
+	border-radius: 50%;
+	background-size: 30px 30px;
+}
+header div.log form button, header div.log form input{
+	margin: 35px 25px 0px 0px;
+}
+button{
+	border-radius: 8px;
+	background-color: #FFFF00;
+	padding: 3px 20px;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 5px #999;
+}
+button:hover{
+	background-color: #EEEE00;
+}
+button:active{
+	background-color: #EAEA00;
+	box-shadow: 0 3px #666;
+	transform: translateY(4px);
+}
+main input{
+	padding: 12px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+.signup form input{
+	display: block;
+	text-indent: 8px;
+}
+.signup{
+	margin: auto;
+	width: 35%;
+}
+.upload input{
+	display: block;
+	text-indent: 8px;
+	margin: auto;
+	width: 40%;
+}
+table.phonebook{
+	border-collapse: collapse;
+	width: 100%;
+}
+table.deleteusers{
+	border-collapse: collapse;
+	width: 50%;
+	margin-left:30%;
+}
+table.phonebook tr th,table.phonebook tr td{border: 1px solid #978626;}
+table.deleteusers tr th,table.deleteusers tr td{border: 2px dashed #978626;}
+table.phonebook tr th,table.deleteusers tr th{
+	text-align: center;
+	padding: 8px;
+	background-color: #E9C340;
+}
+table.phonebook tr td{
+	text-align: left;
+}
+table.phonebook tr td:last-child{
+	width:2%;
+}
+table.deleteusers tr td{
+	text-align: center;
+}
+table.phonebook tr:nth-child(even),table.deleteusers tr:nth-child(even){
+	background-color: #DDC437;
+}
+table.phonebook tr:hover:not(:first-child),table.deleteusers tr:hover:not(:first-child){
+	background-color: #F6E481;
+}
+table.phonebook tr th a img,table.deleteusers tr th a img{
+	width: 12px;
+	padding-left: 5px;
+}
+ul.charpage li{
+	display: inline;
+	float: left;
+	margin-right: 15px;
+}
+ul.charpage {padding-bottom: 20px;}
+ul.charpage li a, header div.nav div.log a{
+	text-decoration: underline;
+	color: #0000FF;
+}
+.log p a{
+	text-decoration:underline;
+	color: blue;
+}
+img[alt='edit'], img[alt='delete']{
+	width:15%;
+	padding-left: 21%;
+}
+.validated{
+	display: flex;
+	position: fixed;
+	left:0;
+	bottom:0;
+}
